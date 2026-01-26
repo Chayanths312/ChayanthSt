@@ -1,236 +1,99 @@
 # =====================================================
 # Data displayed on the Home (About Me) page.
-#
-# 💡 Tip for Images / Logo:
-# You can use either:
-# 1. A full URL (e.g., https://example.com/logo.png)
-# 2. A local file placed under /public/images/ and referenced with "/" (e.g., "/images/logo.png")
-# =====================================================
-
-# =====================================================
-# 👤 Personal Information
 # =====================================================
 
 profile:
-  name: "[Your Name]"
-  headline: "Student @ [Your University]"
-  email: "your-email@gmail.com"
-  location: null
+  name: "Chayanth Suthahar"
+  headline: "Mechanical Engineering Student @ Toronto Metropolitan University"
+  email: "chayanthsuthahar@gmail.com"
+  location: "Ontario, Canada"
   profileImage: "https://github.com/pm25.png"
 
   links:
     - name: "LinkedIn"
-      url: "https://www.linkedin.com/in/[your-linkedin]"
+      url: "https://www.linkedin.com/in/chayanth"
       icon:
         name: "FaLinkedin"
         package: "react-icons/fa6"
 
-    - name: "Google Scholar"
-      url: "https://scholar.google.com/citations?user=[your-id]"
-      icon:
-        name: "FaGoogleScholar"
-        package: "react-icons/fa6"
-
     - name: "Résumé"
-      url: "/pdf/sample-resume.pdf"
+      url: "/pdf/resume.pdf"
       icon:
         name: "FaRegIdBadge"
         package: "react-icons/fa6"
 
-    - name: "Github"
-      url: "https://github.com/[your-github]"
+    - name: "GitHub"
+      url: "https://github.com/"
       icon:
         name: "FaGithub"
         package: "react-icons/fa6"
 
-    - name: "Facebook"
-      url: "https://www.facebook.com/[your-facebook]"
-      icon:
-        name: "FaSquareFacebook"
-        package: "react-icons/fa6"
-
-  # you can use HTML syntax here (e.g. <br/>, <a>, <strong>, ...)
   biography: |
-    Hi! I'm <strong>[Your Name]</strong>, a <em>[Your Title]</em> passionate about <em>[field or topic]</em>. Currently, I work as <em>[current role]</em> at <em>[organization]</em>, where I <em>[briefly describe your work or mission]</em>. 
-    With a background in <em>[academic or professional background]</em>, I've developed strong interests in <em>[key interests or specialties]</em> and have contributed to projects like <i>[example project]</i> and <i>[another example]</i>, all focused on <em>[broader goal or impact]</em>.
+    Hi! I'm <strong>Chayanth Suthahar</strong>, a <em>Mechanical Engineering student</em> passionate about <em>design, manufacturing, and solving real-world problems through engineering</em>. I am currently studying at <em>Toronto Metropolitan University</em>, where I focus on mechanical design, fabrication, and applied problem-solving.
+    With a background in <em>competitive robotics and community-led engineering initiatives</em>, I have developed strong interests in <em>mechanical design, manufacturing processes, and data-driven decision making</em>. I have contributed to large-scale engineering projects through <i>FIRST Robotics Team 2056</i> and founded <i>HammerHacks</i>, a high school hackathon focused on expanding access to STEM education.
     <div class="my-2"></div>
-    Outside of work, I enjoy <em>[hobbies or personal interests]</em>, which inspire creativity and keep me energized. Thanks for visiting! Feel free to <a href="mailto:[your-email@example.com]" target="_blank" rel="noopener noreferrer">reach out</a> to connect.
+    Outside of engineering, I enjoy mentoring students, working on collaborative technical projects, and building solutions that make a tangible impact. Feel free to <a href="mailto:chayanthsuthahar@gmail.com" target="_blank" rel="noopener noreferrer">reach out</a> to connect.
 
-# # =====================================================
-# # 🎓 Education Section
-# # =====================================================
+# =====================================================
+# 🎓 Education Section
+# =====================================================
 
 education:
-  - degree: "Ph.D. in [Field]"
-    school: "[University Name]"
-    years: "20XX - Present"
-    logo: "https://upload.wikimedia.org/wikipedia/en/a/a1/Arizona_State_University_seal.svg"
+  - degree: "B.Eng. in Mechanical Engineering"
+    school: "Toronto Metropolitan University"
+    years: "2024 - Present"
+    logo: "https://upload.wikimedia.org/wikipedia/en/3/3b/Toronto_Metropolitan_University_logo.svg"
 
-  - degree: "M.S. in Computer Science"
-    school: "National Taiwan University"
-    years: "2020 - 2022"
-    logo: "/images/ntu_logo.svg"
-
-  - degree: "B.S. in Computer Science"
-    school: "National Chengchi University"
-    years: "2018 - 2020"
-    logo: "/images/nccu_logo.svg"
-
-# # =====================================================
-# # 💼 Work Experience Section
-# # =====================================================
+# =====================================================
+# 💼 Work & Leadership Experience Section
+# =====================================================
 
 workExperience:
-  - title: "[Job Title]"
-    company: "[Company Name]"
-    years: "20XX - Present"
-    logo: "/images/nvidia_logo.webp"
+  - title: "Strategy & Design Lead"
+    company: "FIRST Robotics Team 2056"
+    years: "2020 - 2024"
+    logo: "https://www.firstinspires.org/sites/default/files/uploads/resource_library/brand/first-robotics-logo.png"
 
-  - title: "Software Engineering Intern"
-    company: "Google"
-    years: "Jul 2022 - Sep 2022"
-    logo: "/images/google_logo.svg"
+  - title: "Founder & Organizer"
+    company: "HammerHacks"
+    years: "2023"
+    logo: null
 
-  - title: "Research Assistant"
-    company: "University of Illinois Urbana-Champaign"
-    years: "Jul 2019 - Sep 2019"
-    logo: "/images/uiuc_logo.png"
+  - title: "Executive Member"
+    company: "Stoney Creek Youth Council"
+    years: "2022 - 2023"
+    logo: null
 
-# # =====================================================
-# # 🎤 Presentations / Talks Section
-# # =====================================================
-
-talks:
-  - category: "Misc"
-    title: "[Your Talk Title Here]"
-    organization: "[Your Talk Location Here]"
-    date: "[Month Day, Year]"
-    link: "https://example.com/your-talk-link"
-    image: "https://upload.wikimedia.org/wikipedia/commons/8/8f/Example_image.svg"
-
-  - category: "Workshop"
-    title: "Deep Learning with Keras"
-    organization: "University of Illinois Urbana-Champaign (UIUC)"
-    date: "Sep 4, 2019"
-    link: null
-    image: "https://pm25.github.io/images/uiuc-workshop.webp"
-
-  - category: "Workshop"
-    title: "Practical Guide to PyTorch"
-    organization: "ABC University"
-    date: "Dec 5, 2022"
-    link: "https://example.com/workshop-talk"
-    image: null
-
-# # =====================================================
-# # 🛡️ Professional Services
-# # =====================================================
-
-services:
-  - category: "Misc"
-    role: "[Role]"
-    organization: "[Organization]"
-    date: "[Year]"
-    link: "https://example.com/workshop-talk"
-    image: "https://upload.wikimedia.org/wikipedia/commons/8/8f/Example_image.svg"
-
-  - category: "Research"
-    role: "Reviewer"
-    organization: "TPAMI 2024, NeurIPS 2025"
-    date: "2024-2025"
-    link: null
-    image: null
-
-  - category: "Research"
-    role: "Program Committee Member"
-    organization: "CVPR 2022"
-    date: "2022"
-    link: null
-    image: null
-
-  - category: "Teaching"
-    role: "Teaching Assistant"
-    organization: "National Taiwan University - Data Structures & Algorithms"
-    date: "2021"
-    link: null
-    image: null
-
-# # =====================================================
-# # 🛠️ Skills Section
-# # =====================================================
+# =====================================================
+# 🛠️ Skills Section
+# =====================================================
 
 skills:
-  Programming:
-    - name: "[Name]"
-      logo: "https://upload.wikimedia.org/wikipedia/commons/1/18/ISO_C%2B%2B_Logo.svg"
-      proficiency: "[Proficiency]"
-      description: "[Description]"
+  Engineering:
+    - name: "SolidWorks"
+      logo: "https://upload.wikimedia.org/wikipedia/commons/5/5f/SolidWorks_Logo.svg"
+      proficiency: "Advanced"
+      description: "Mechanical design, assemblies, and fabrication-ready drawings."
 
-    - name: "Python"
-      logo: "https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg"
-      proficiency: Experienced
-      description: null
-
-    - name: "JavaScript"
-      logo: "https://upload.wikimedia.org/wikipedia/commons/9/99/Unofficial_JavaScript_logo_2.svg"
-      proficiency: Fluent
-      description: null
-
-  Web:
-    - name: "React"
-      logo: "https://upload.wikimedia.org/wikipedia/commons/3/30/React_Logo_SVG.svg"
-      proficiency: Advanced
-      description: null
-
-    - name: "Typescript"
-      logo: "https://upload.wikimedia.org/wikipedia/commons/f/f5/Typescript.svg"
-      proficiency: Fluent
-      description: null
-
-    - name: "TailwindCSS"
-      logo: "https://upload.wikimedia.org/wikipedia/commons/d/d5/Tailwind_CSS_Logo.svg"
-      proficiency: Fluent
-      description: null
-
-    - name: "Next.js"
-      logo: "https://logo.svgcdn.com/devicon/nextjs-original.png"
-      proficiency: Fluent
-      description: null
-
-  Machine Learning:
-    - name: "PyTorch"
-      logo: "https://upload.wikimedia.org/wikipedia/commons/1/10/PyTorch_logo_icon.svg"
-      proficiency: Experienced
-      description: null
-
-    - name: "TensorFlow"
-      logo: "https://upload.wikimedia.org/wikipedia/commons/2/2d/Tensorflow_logo.svg"
-      proficiency: Fluent
-      description: null
-
-    - name: "Keras"
-      logo: "https://upload.wikimedia.org/wikipedia/commons/a/ae/Keras_logo.svg"
-      proficiency: Fluent
-      description: null
-
-  Research:
-    - name: "Machine Learning"
+    - name: "Manufacturing & Fabrication"
       logo: "https://upload.wikimedia.org/wikipedia/commons/2/2a/OOjs_UI_icon_academic-progressive.svg"
-      proficiency: 2020 - Current
-      description: "General machine learning methods and applied research."
+      proficiency: "Experienced"
+      description: "Hands-on experience with prototyping, machining, and structural design."
 
-    - name: "Representation Learning"
+  Data & Analysis:
+    - name: "Spreadsheets & Statistical Analysis"
+      logo: "https://upload.wikimedia.org/wikipedia/commons/7/7c/Microsoft_Excel_2013-2019_logo.svg"
+      proficiency: "Experienced"
+      description: "Data collection, analysis, and real-time decision making."
+
+  Leadership:
+    - name: "Team Strategy & Communication"
       logo: "https://upload.wikimedia.org/wikipedia/commons/2/2a/OOjs_UI_icon_academic-progressive.svg"
-      proficiency: 2024 - 2025
-      description: "Learning meaningful embeddings and feature representations from data."
+      proficiency: "Advanced"
+      description: "Leading teams, coordinating across organizations, and high-stakes decision making."
 
   Language:
     - name: "English"
       logo: "https://upload.wikimedia.org/wikipedia/commons/e/e0/OOjs_UI_icon_language-ltr-progressive.svg"
-      proficiency: Fluent
+      proficiency: "Fluent"
       description: "Professional working proficiency."
-
-    - name: "Taiwanese Hokkien"
-      logo: "https://upload.wikimedia.org/wikipedia/commons/e/e0/OOjs_UI_icon_language-ltr-progressive.svg"
-      proficiency: Native
-      description: "Native fluency."
