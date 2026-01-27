@@ -93,7 +93,7 @@ workExperience:
 # 🎤 Projects & Awards
 # =====================================================
 
-
+talks: []
 projects:
   - title: "2025 FRC Team 2056 Robot — “Lighting”"
     description: >
@@ -185,5 +185,4 @@ language:
 # Misc / placeholders for other sections
 # =====================================================
 
-talks: []
 fill_in: false
