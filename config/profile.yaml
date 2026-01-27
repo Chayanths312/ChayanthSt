@@ -12,15 +12,15 @@
 # =====================================================
 
 profile:
-  name: "[Your Name]"
-  headline: "Student @ [Your University]"
-  email: "your-email@gmail.com"
+  name: "Chayanth"
+  headline: "Student @ Toronto"
+  email: "Chayanthsuthahar@gmail.com"
   location: null
   profileImage: "https://github.com/pm25.png"
 
   links:
     - name: "LinkedIn"
-      url: "https://www.linkedin.com/in/[your-linkedin]"
+      url: "https://www.linkedin.com/in/chayanth-suthahar/"
       icon:
         name: "FaLinkedin"
         package: "react-icons/fa6"
