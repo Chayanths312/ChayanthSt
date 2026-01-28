@@ -4,7 +4,7 @@
 # 💡 Tip for Images / Logo:
 # You can use either:
 # 1. A full URL (e.g., https://example.com/logo.png)
-# 2. A local file placed under /public/images/ and referenced with "/" (e.g., "/images/logo.png")
+# 2. A local file placed under /public/images/ and referenced with '/' (e.g., '/images/logo.png')
 # =====================================================
 
 # =====================================================
@@ -51,10 +51,10 @@ profile:
 
   # you can use HTML syntax here (e.g. <br/>, <a>, <strong>, ...)
   biography: |
-Hi! I'm <strong>Chayanth</strong>, a <em>Mechanical Engineering student</em> passionate about <em>design, manufacturing, and solving real-world problems through engineering</em>. Currently, I study at <em>Toronto Metropolitan University</em>, where I focus on mechanical design, fabrication, and applied problem-solving.
-With a background in <em>competitive robotics and community-led engineering initiatives</em>, I've developed strong interests in <em>mechanical design, manufacturing processes, and data-driven decision making</em> and have contributed to projects like <i>FIRST Robotics Team 2056</i> and <i>HammerHacks</i>, all focused on <em>creating impactful engineering solutions</em>.
-<div class="my-2"></div>
-Outside of engineering, I enjoy <em>mentoring students, collaborating on technical projects, and building things</em>, which keep me motivated and constantly learning. Thanks for visiting! Feel free to <a href="mailto:chayanthsuthahar@gmail.com" target="_blank" rel="noopener noreferrer">reach out</a> to connect.
+    Hi! I'm <strong>Chayanth</strong>, a <em>Mechanical Engineering student</em> passionate about <em>design, manufacturing, and solving real-world problems through engineering</em>. Currently, I stud[...]
+    With a background in <em>competitive robotics and community-led engineering initiatives</em>, I've developed strong interests in <em>mechanical design, manufacturing processes, and data-driven dec[...]  
+    <div class="my-2"></div>
+    Outside of engineering, I enjoy <em>mentoring students, collaborating on technical projects, and building things</em>, which keep me motivated and constantly learning. Thanks for visiting! Feel fr[...]  
 
 # # =====================================================
 # # 🎓 Education Section
@@ -100,27 +100,27 @@ workExperience:
 # # =====================================================
 # # 🎤 Presentations / Talks Section
 # # =====================================================
-talks:
-  - category: "Misc"
-    title: "[Your Talk Title Here]"
-    organization: "[Your Talk Location Here]"
-    date: "[Month Day, Year]"
-    link: "https://example.com/your-talk-link"
-    image: "https://upload.wikimedia.org/wikipedia/commons/8/8f/Example_image.svg"
+ talks:
+   - category: "Misc"
+     title: "[Your Talk Title Here]"
+     organization: "[Your Talk Location Here]"
+     date: "[Month Day, Year]"
+     link: "https://example.com/your-talk-link"
+     image: "https://upload.wikimedia.org/wikipedia/commons/8/8f/Example_image.svg"
 
-  - category: "Workshop"
-    title: "Deep Learning with Keras"
-    organization: "University of Illinois Urbana-Champaign (UIUC)"
-    date: "Sep 4, 2019"
-    link: null
-    image: "https://pm25.github.io/images/uiuc-workshop.webp"
+   - category: "Workshop"
+     title: "Deep Learning with Keras"
+     organization: "University of Illinois Urbana-Champaign (UIUC)"
+     date: "Sep 4, 2019"
+     link: null
+     image: "https://pm25.github.io/images/uiuc-workshop.webp"
 
-  - category: "Workshop"
-    title: "Practical Guide to PyTorch"
-    organization: "ABC University"
-    date: "Dec 5, 2022"
-    link: "https://example.com/workshop-talk"
-    image: null
+   - category: "Workshop"
+     title: "Practical Guide to PyTorch"
+     organization: "ABC University"
+     date: "Dec 5, 2022"
+     link: "https://example.com/workshop-talk"
+     image: null
 
 # # =====================================================
 # # 🛡️ Professional Services
