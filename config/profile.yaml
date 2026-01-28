@@ -13,15 +13,15 @@
 # =====================================================
 
 profile:
-  name: "[Your Name]"
-  headline: "Student @ [Your University]"
-  email: "your-email@gmail.com"
+  name: "Chayanth"
+  headline: "Student @ Toronto Metropolitan University"
+  email: "chayanthsuthahar@gmail.com"
   location: null
   profileImage: "https://github.com/pm25.png"
 
   links:
     - name: "LinkedIn"
-      url: "https://www.linkedin.com/in/[your-linkedin]"
+      url: "https://www.linkedin.com/in/chayanth/"
       icon:
         name: "FaLinkedin"
         package: "react-icons/fa6"
@@ -52,7 +52,7 @@ profile:
 
   # you can use HTML syntax here (e.g. <br/>, <a>, <strong>, ...)
   biography: |
-    Hi! I'm <strong>[Your Name]</strong>, a <em>[Your Title]</em> passionate about <em>[field or topic]</em>. Currently, I work as <em>[current role]</em> at <em>[organization]</em>, where I <em>[briefly describe your work or mission]</em>. 
+    Hi! I'm <strong>Chayanth</strong>, a <em>mechanical engineering</em> passionate about <em>robotics</em>. Currently, I study as a<em>Mechanical engineer</em> at <em></em>, where I <em>[briefly describe your work or mission]</em>. 
     With a background in <em>[academic or professional background]</em>, I've developed strong interests in <em>[key interests or specialties]</em> and have contributed to projects like <i>[example project]</i> and <i>[another example]</i>, all focused on <em>[broader goal or impact]</em>.
     <div class="my-2"></div>
     Outside of work, I enjoy <em>[hobbies or personal interests]</em>, which inspire creativity and keep me energized. Thanks for visiting! Feel free to <a href="mailto:[your-email@example.com]" target="_blank" rel="noopener noreferrer">reach out</a> to connect.
@@ -62,20 +62,16 @@ profile:
 # # =====================================================
 
 education:
-  - degree: "Ph.D. in [Field]"
-    school: "[University Name]"
-    years: "20XX - Present"
-    logo: "https://upload.wikimedia.org/wikipedia/en/a/a1/Arizona_State_University_seal.svg"
+  - degree: "BEng in Mechanical engineering"
+    school: "Toronto Metropolitan University"
+    years: "2025 - Present"
+    logo: "https://www.torontomu.ca/content/dam/calendar/images/TMU-Shield-WATERMARK1.jpg"
 
-  - degree: "M.S. in Computer Science"
-    school: "National Taiwan University"
-    years: "2020 - 2022"
-    logo: "/images/ntu_logo.svg"
+  - degree: "OSSD"
+    school: "Orchard Park Secondary School"
+    years: "2021 - 2025"
+    logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5TCC2jBMkC4TVAckyChCd5o_04c88cOZsqw&s"
 
-  - degree: "B.S. in Computer Science"
-    school: "National Chengchi University"
-    years: "2018 - 2020"
-    logo: "/images/nccu_logo.svg"
 
 # # =====================================================
 # # 💼 Work Experience Section
