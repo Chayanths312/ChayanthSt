@@ -67,7 +67,7 @@ education:
     years: "2025 - Present"
     logo: "https://www.torontomu.ca/content/dam/calendar/images/TMU-Shield-WATERMARK1.jpg"
 
-  - degree: "Ontario Secondary School Diploma (OSSD)"
+  - degree: "OSSD"
     school: "Orchard Park Secondary School"
     years: "2021 - 2025"
     logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5TCC2jBMkC4TVAckyChCd5o_04c88cOZsqw&s"
@@ -78,21 +78,20 @@ education:
 # # =====================================================
 
 workExperience:
-  - title: "Strategy Representative and Design Member"
-    company: "2056"
-    years: "2021- 2025"
-    logo: "https://www.thebluealliance.com/avatar/2026/frc2056.png"
+  - title: "[Job Title]"
+    company: "[Company Name]"
+    years: "20XX - Present"
+    logo: "/images/nvidia_logo.webp"
 
-  - title: "Operations Team Member"
-    company: "Hammer Hacks"
-    years: "Jul 2023- Nov 2024"
-    logo: "https://www.hammerhacks.ca/assets/logo.webp"
-    
- - title: "Board of Directors"
-    company: "Stoney Creek Youth Council"
-    years: "Sept 2022- Jun 2025"
-    logo: "https://images.squarespace-cdn.com/content/v1/684872904b5b876273a8912e/1749578401092-V12PLIG9OJ1ZO3AG7U2H/E-mail+Signature+-+Newsletter+%283%29.jpg?format=2500w"
+  - title: "Software Engineering Intern"
+    company: "Google"
+    years: "Jul 2022 - Sep 2022"
+    logo: "/images/google_logo.svg"
 
+  - title: "Research Assistant"
+    company: "University of Illinois Urbana-Champaign"
+    years: "Jul 2019 - Sep 2019"
+    logo: "/images/uiuc_logo.png"
 
 # # =====================================================
 # # 🎤 Presentations / Talks Section
