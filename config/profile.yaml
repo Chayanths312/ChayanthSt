@@ -17,7 +17,7 @@ profile:
   headline: "Student @ Toronto Metropolitan University"
   email: "chayanthsuthahar@gmail.com"
   location: null
-  profileImage: "https://github.com/pm25.png"
+  profileImage: "/images/Headhshot.jpg"
 
   links:
     - name: "LinkedIn"
