@@ -145,62 +145,46 @@ services:
 # # =====================================================
 
 skills:
-  Programming:
-    - name: "[Name]"
-      logo: "https://upload.wikimedia.org/wikipedia/commons/1/18/ISO_C%2B%2B_Logo.svg"
-      proficiency: "[Proficiency]"
-      description: "[Description]"
-
-    - name: "Python"
-      logo: "https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg"
-      proficiency: Experienced
+  CAD:
+    - name: "SolidWorks"
+      logo: "https://upload.wikimedia.org/wikipedia/commons/f/f7/SolidWorks_Logo.svg"
+      proficiency: Advanced
+      description: "Designed 10+ major robot components for FRC Team 2056."
+    - name: "Onshape"
+      logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Onshape_logo.png/320px-Onshape_logo.png"
+      proficiency: Fluent
       description: null
-
-    - name: "JavaScript"
-      logo: "https://upload.wikimedia.org/wikipedia/commons/9/99/Unofficial_JavaScript_logo_2.svg"
+    - name: "AutoCAD"
+      logo: "https://upload.wikimedia.org/wikipedia/commons/7/7d/AutoCAD_2023.svg"
       proficiency: Fluent
       description: null
 
- Web:
-  - name: "SolidWorks"
-    logo: "https://upload.wikimedia.org/wikipedia/commons/f/f7/SolidWorks_Logo.svg"
-    proficiency: Advanced
-    description: "Designed 10+ major robot components for FRC Team 2056."
-  - name: "Onshape"
-    logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Onshape_logo.png/320px-Onshape_logo.png"
-    proficiency: Fluent
-    description: null
-  - name: "AutoCAD"
-    logo: "https://upload.wikimedia.org/wikipedia/commons/7/7d/AutoCAD_2023.svg"
-    proficiency: Fluent
-    description: null
+  Fabrication:
+    - name: "CNC Machining"
+      logo: "https://upload.wikimedia.org/wikipedia/commons/2/2a/OOjs_UI_icon_academic-progressive.svg"
+      proficiency: Experienced
+      description: null
+    - name: "Milling & Lathe"
+      logo: "https://upload.wikimedia.org/wikipedia/commons/2/2a/OOjs_UI_icon_academic-progressive.svg"
+      proficiency: Experienced
+      description: null
+    - name: "Soldering"
+      logo: "https://upload.wikimedia.org/wikipedia/commons/2/2a/OOjs_UI_icon_academic-progressive.svg"
+      proficiency: Experienced
+      description: null
 
-Fabrication:
-  - name: "CNC Machining"
-    logo: "https://upload.wikimedia.org/wikipedia/commons/2/2a/OOjs_UI_icon_academic-progressive.svg"
-    proficiency: Experienced
-    description: null
-  - name: "Milling & Lathe"
-    logo: "https://upload.wikimedia.org/wikipedia/commons/2/2a/OOjs_UI_icon_academic-progressive.svg"
-    proficiency: Experienced
-    description: null
-  - name: "Soldering"
-    logo: "https://upload.wikimedia.org/wikipedia/commons/2/2a/OOjs_UI_icon_academic-progressive.svg"
-    proficiency: Experienced
-    description: null
+  Projects:
+    - name: "FRC Robotics"
+      logo: "https://upload.wikimedia.org/wikipedia/commons/2/2a/OOjs_UI_icon_academic-progressive.svg"
+      proficiency: "2022 - 2025"
+      description: "Ontario District Champions & FRC World Championships 1st place (2025) with Team 2056."
+    - name: "Keep'on Cooking"
+      logo: "https://upload.wikimedia.org/wikipedia/commons/2/2a/OOjs_UI_icon_academic-progressive.svg"
+      proficiency: "2024"
+      description: "Pomodoro productivity device built at McMaster Designathon."
 
-Projects:
-  - name: "FRC Robotics"
-    logo: "https://upload.wikimedia.org/wikipedia/commons/2/2a/OOjs_UI_icon_academic-progressive.svg"
-    proficiency: "2022 - 2025"
-    description: "Ontario District Champions & FRC World Championships 1st place (2025) with Team 2056."
-  - name: "Keep'on Cooking"
-    logo: "https://upload.wikimedia.org/wikipedia/commons/2/2a/OOjs_UI_icon_academic-progressive.svg"
-    proficiency: "2024"
-    description: "Pomodoro productivity device built at McMaster Designathon."
-
-Language:
-  - name: "English"
-    logo: "https://upload.wikimedia.org/wikipedia/commons/e/e0/OOjs_UI_icon_language-ltr-progressive.svg"
-    proficiency: Fluent
-    description: "Professional working proficiency."
+  Language:
+    - name: "English"
+      logo: "https://upload.wikimedia.org/wikipedia/commons/e/e0/OOjs_UI_icon_language-ltr-progressive.svg"
+      proficiency: Fluent
+      description: "Professional working proficiency."
