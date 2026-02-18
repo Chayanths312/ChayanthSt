@@ -173,15 +173,19 @@ skills:
       proficiency: Experienced
       description: null
 
-  Projects:
-    - name: "FRC Robotics"
-      logo: "https://upload.wikimedia.org/wikipedia/commons/2/2a/OOjs_UI_icon_academic-progressive.svg"
-      proficiency: "2022 - 2025"
-      description: "Ontario District Champions & FRC World Championships 1st place (2025) with Team 2056."
-    - name: "Keep'on Cooking"
-      logo: "https://upload.wikimedia.org/wikipedia/commons/2/2a/OOjs_UI_icon_academic-progressive.svg"
-      proficiency: "2024"
-      description: "Pomodoro productivity device built at McMaster Designathon."
+  Programming:
+    - name: "C++"
+      logo: "https://upload.wikimedia.org/wikipedia/commons/1/18/ISO_C%2B%2B_Logo.svg"
+      proficiency: Experienced
+      description: null
+    - name: "C"
+      logo: "https://upload.wikimedia.org/wikipedia/commons/1/19/C_Logo.png"
+      proficiency: Experienced
+      description: null
+    - name: "Java"
+      logo: "https://upload.wikimedia.org/wikipedia/en/3/30/Java_programming_language_logo.svg"
+      proficiency: Experienced
+      description: null
 
   Language:
     - name: "English"
